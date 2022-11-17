@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link
+      rel="stylesheet"
+      href="./styling/bootstrap/css/bootstrap.min.css?v=1.0"
+    />
+    <link rel="stylesheet" href="./styling/index.css?v=4.0" />
+    <script src="./styling/bootstrap/js/jquery.min.js"></script>
+    <script src="./styling/bootstrap/js/popper.min.js"></script>
+    <script src="./styling/bootstrap/js/bootstrap.min.js"></script>
+    <title>UB advocates</title>
+  </head>
+  <body>
+    <div class="menu-bar">
+      <div class="row">
+        <div class="col-sm-4">
+          <img src="./images/UBlogo.png" class="UBlogo" />
+        </div>
+        <div class="col-sm-8">
+          <div class="row">
+            <div class="col-sm-12 menu">
+              MENU <span class="menu-icon">▼</span>
+            </div>
+          </div>
+          <div class="row menu-items">
+            <div class="col-sm-2 menu-links" onclick="redirect('homepage')">
+              HOME
+            </div>
+            <div class="col-sm-2 menu-links" onclick="redirect('aboutus')">
+              ABOUT US
+            </div>
+            <div class="col-sm-2 menu-links" onclick="redirect('staff')">
+              OUR STAFF
+            </div>
+            <div class="col-sm-2 menu-links" onclick="redirect('projects')">
+              OUR PROJECTS
+            </div>
+            <div
+              class="col-sm-2 menu-links"
+              onclick="redirect('practiceareas')"
+            >
+              PRACTICE AREAS
+            </div>
+            <div class="col-sm-2 menu-links" onclick="redirect('contacts')">
+              CONTACTS
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="">
+      <div
+        id="myCarousel"
+        class="carousel slide"
+        data-ride="carousel"
+        data-interval="2000"
+      >
+        <ul class="carousel-indicators">
+          <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+          <li data-target="#myCarousel" data-slide-to="1"></li>
+          <li data-target="#myCarousel" data-slide-to="2"></li>
+          <li data-target="#myCarousel" data-slide-to="3"></li>
+          <li data-target="#myCarousel" data-slide-to="4"></li>
+        </ul>
+        <div class="carousel-inner">
+          <div class="carousel-item active carousel-piece">
+            <img src="./images/office.jpg" alt="KPA" class="carousel-img" />
+          </div>
+          <div class="carousel-item carousel-piece">
+            <img
+              src="./images/Nairobi.png"
+              alt="Nairobi"
+              class="carousel-img"
+            />
+          </div>
+          <div class="carousel-item carousel-piece">
+            <img
+              src="./images/Nairobi2.jpg"
+              alt="Nairobi2"
+              class="carousel-img"
+            />
+          </div>
+          <div class="carousel-item carousel-piece">
+            <img
+              src="./images/IMG-20210207-WA0008.jpg"
+              alt="Nairobi2"
+              class="carousel-img"
+            />
+          </div>
+          <div class="carousel-item carousel-piece">
+            <img
+              src="./images/IMG-20210207-WA0009.jpg"
+              alt="Nairobi2"
+              class="carousel-img"
+            />
+          </div>
+        </div>
+      </div>
+      <div class="row tiles-container">
+        <div class="col-sm-4 tiles tiles-override">
+          <div class="inner-tile">
+            <h3 class="center-text text-header practiceH3">PRACTICE AREAS</h3>
+            <ul class="text-par">
+              <li>Intellectual Property.</li>
+              <li>Corporate/Commercial.</li>
+              <li>Conveyancing and Real Estate.</li>
+              <li>Dispute Resolution Litigation.</li>
+              <li>Employment Law.</li>
+              <li>Immigration and Private Client.</li>
+              <li>Environmental Law.</li>
+              <li>Project Finance.</li>
+              <li>Legal Audit and Due Diligence.</li>
+            </ul>
+            <a
+              onclick="redirect('practiceareas')"
+              class="center-text block link-par practiceH2 read-link"
+              >Read more</a
+            >
+          </div>
+        </div>
+        <div class="col-sm-4 tiles tiles-override">
+          <div class="inner-tile">
+            <h3 class="center-text text-header practiceH3">OUR APPROACH</h3>
+            <p class="center-text text-par">
+              Our lawyers are renowned for their professional in-depth
+              analytical and problem solving skills in a comprehensive range of
+              legal disciplines and total devotion to meeting clients demands at
+              short notice. We have represented local and international clients
+              at the specialized tribunals in Kenya including: the Sports
+              Tribunal, the Industrial Property Tribunal, the National
+              Environmental Tribunal...
+            </p>
+            <a
+              onclick="redirect('aboutus')"
+              class="center-text block link-par practiceH2 read-link"
+              >Read more</a
+            >
+          </div>
+        </div>
+        <div class="col-sm-4 tiles tiles-override">
+          <div class="inner-tile">
+            <h3 class="center-text text-header practiceH3">OUR PUBLICATION</h3>
+            <p class="center-text text-par">
+              You can find our company profile in the download link before
+            </p>
+            <a
+              href="./images/UBAdvocates2022.pdf"
+              download
+              class="center-text block link-par practiceH2"
+              >Company Profile</a
+            >
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="row footer">
+      <div class="col-sm-3"></div>
+      <div class="col-sm-6">
+        <p class="copyright">
+          COPYRIGHT © 2019 UB ADVOCATES. ALL RIGHTS RESERVED
+        </p>
+      </div>
+      <div class="col-sm-3"></div>
+    </div>
+  </body>
+  <script src="./js/index.js"></script>
+</html>
